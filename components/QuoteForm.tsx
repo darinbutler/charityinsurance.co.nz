@@ -49,10 +49,6 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
       <form onSubmit={handleSubmit} className="space-y-3">
         <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         <input type="hidden" name="_subject" value="New Charity Insurance Quote — CharityInsurance.co.nz" />
-        <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="https://charityinsurance.co.nz/thank-you/" />
-        <input type="hidden" name="_template" value="table" />
         {orgType && <input type="hidden" name="org_type" value={orgType} />}
         <input type="text" name="name" required placeholder="Your name" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
         <input type="text" name="organisation" required placeholder="Organisation name" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
@@ -74,10 +70,6 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
       <p className="text-slate-500 text-sm mb-6">The more you share, the better we can match you. Plain-English options back within one business day — no hard sell, ever.</p>
       <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
       <input type="hidden" name="_subject" value="New Charity Insurance Quote — CharityInsurance.co.nz" />
-      <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://charityinsurance.co.nz/thank-you/" />
-      <input type="hidden" name="_template" value="table" />
       {orgType && <input type="hidden" name="org_type" value={orgType} />}
       <div className="grid sm:grid-cols-2 gap-4 mb-4">
         <div>
