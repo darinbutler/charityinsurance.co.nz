@@ -77,9 +77,9 @@ export default function Footer() {
               </p>
             </div>
             <div className="bg-slate-800/60 rounded-xl p-4">
-              <p className="text-xs font-bold text-emerald-400 uppercase tracking-widest mb-1">Fair Insurance Code</p>
+              <p className="text-xs font-bold text-emerald-400 uppercase tracking-widest mb-1">Claims Standards</p>
               <p className="text-xs text-slate-400 leading-relaxed">
-                All insurers we work with are appropriately licensed in New Zealand or are Lloyd's of London underwriters operating in NZ. We are committed to Fair Insurance Code standards of transparency, fairness, and prompt claims handling.
+                All insurers we work with are appropriately licensed in New Zealand or are Lloyd's of London underwriters operating in NZ. We are committed to standards of transparency, fairness, and prompt claims handling.
               </p>
             </div>
           </div>

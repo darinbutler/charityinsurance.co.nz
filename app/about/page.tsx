@@ -41,8 +41,8 @@ export default function AboutPage() {
           <h2>Regulatory Information</h2>
           <p>CharityInsurance.co.nz is operated by Cover4You, a trading style of GDS. We are a comparison and referral service — not an insurer or licensed financial advice provider. We refer enquiries to licensed NZ insurance advisors and brokers who provide the financial advice and arrange cover on your behalf. Our referral service is free to use. We may receive a referral fee from insurers when a policy is arranged through our service. Broker fees may apply on some products and are disclosed upfront. All financial advice is provided by the licensed adviser handling your enquiry, in accordance with the Financial Markets Conduct Act 2013.</p>
 
-          <h2>Fair Insurance Code</h2>
-          <p>All insurers we work with are appropriately licensed in New Zealand or are Lloyd's of London underwriters operating in NZ. We are committed to Fair Insurance Code standards of transparency, fairness, and prompt claims handling.</p>
+          <h2>Claims Standards</h2>
+          <p>All insurers we work with are appropriately licensed in New Zealand or are Lloyd's of London underwriters operating in NZ. We are committed to standards of transparency, fairness, and prompt claims handling.</p>
         </div>
 
         <div className="mt-12 bg-emerald-50 border-2 border-emerald-600 rounded-2xl p-8 text-center">
